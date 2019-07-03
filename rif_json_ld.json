@@ -1,0 +1,473 @@
+[ {
+  "@id" : "http://datiopen.istat.it/odi/ontologia/censimento/haPopolazioneResidente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/ontologia/territorio/haIndicatoreCensimento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/censimento/indicatori/lavoro/comune/P61_48017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datiopen.istat.it/odi/ontologia/censimento/haPopolazioneResidente" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "154000"
+  } ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/territorio/centriabitati/Firenze_4801710002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Firenze"
+  } ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/territorio/comuni/Calenzano_48005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/territorio/comuni/Fiesole_48015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/territorio/comuni/Firenze_48017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ],
+  "http://datiopen.istat.it/odi/ontologia/territorio/haIndicatoreCensimento" : [ {
+    "@id" : "http://datiopen.istat.it/odi/risorsa/censimento/indicatori/lavoro/comune/P61_48017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "istat_firenze"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://dbpedia.org/resource/Florence"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Firenze"
+  } ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/territorio/comuni/Pontassieve_48033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ]
+}, {
+  "@id" : "http://datiopen.istat.it/odi/risorsa/territorio/comuni/Sesto_Fiorentino_48043",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/populationTotal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Florence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ],
+  "http://dbpedia.org/ontology/populationTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "382808"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "dbpedia_firenze"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/5/rifiuti#Firenze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/5/rifiuti#lunedì",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#50135",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#CAP" ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#della_città" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/5/rifiuti#Firenze"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Acciaio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Alluminio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Batterie_e_accumulatori",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Bombolette_spray",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#CAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Carta_e_cartone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Cassonetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Punto_raccolta_rifiuti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "citta"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Compostaggio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecofurgone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ecostazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Punto_raccolta_rifiuti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecotappa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Punto_raccolta_rifiuti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Firenze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città" ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_punti_di_raccolta" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ecostazione_firenze_via_bibbiena_13"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "firenze"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Imballaggi_e_contenitori",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indumenti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ingombranti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Medicinali",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Oli_vegetali",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Orario",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Organico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Pneumatici",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Punto_raccolta_rifiuti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#RAEE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto_non_differenziabile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Tipologia_Ecofurgone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Tipologia_cassonetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Toner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Vetro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#alle_ore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Orario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#dalle_ore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Orario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#della_città",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#CAP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#domenica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ecostazione_firenze_via_bibbiena_13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione" ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_indirizzo" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#via_bibbiena_13"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_numero_telefono" : [ {
+    "@type" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#numero_di_telefono",
+    "@value" : "199 105 105"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_orario" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#orario1"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#raccoglie" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#foglio_di_carta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ecostazione_firenze_via_bibbiena_13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#foglio_di_carta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Carta_e_cartone" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#giovedì",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_CAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#CAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_indirizzo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Cassonetto"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecotappa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_numero_telefono",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#numero_di_telefono"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_orario",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Cassonetto"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecotappa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_punti_di_raccolta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Città"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Cassonetto"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecotappa"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Punto_raccolta_rifiuti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_via",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#il_giorno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Orario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#latitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#longitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#lunedì",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#martedì",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#mercoledì",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#numero_civico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#numero_di_telefono",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#orario1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Orario" ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#alle_ore" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#time",
+    "@value" : "18:00"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#dalle_ore" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#time",
+    "@value" : "9:00"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#il_giorno" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/5/rifiuti#lunedì"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#martedì"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#raccoglie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Cassonetto"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecostazione"
+  }, {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Ecotappa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Rifiuto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#sabato",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#scatola_di_cartone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Carta_e_cartone" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#venerdì",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Giorno" ]
+}, {
+  "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#via_bibbiena_13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#Indirizzo" ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_CAP" : [ {
+    "@id" : "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#50135"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#ha_via" : [ {
+    "@value" : "Via Bibbiena"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#latitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "43.771664"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#longitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "11.199149"
+  } ],
+  "http://www.semanticweb.org/enrico/ontologies/2019/6/untitled-ontology-15#numero_civico" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "13"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#time",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
