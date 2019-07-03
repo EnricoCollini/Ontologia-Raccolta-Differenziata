@@ -14,3 +14,5 @@ tologie dell’Istat e DBpedia.
 E’ stata valutata anche la possibilità di interfacciare l’ontologia con i dati sulla
 raccotla differenziata dell ISPRA, Istituto superiore per la protezione e la ricerca
 ambientale.
+
+## All'interno di questa repository è possibile trovare la relazione completa.
